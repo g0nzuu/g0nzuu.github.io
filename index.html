@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Pasapalabra</title>
+</head>
+<body>
+    <h1 id="intro">Bienvenido al PasaPalabra!</h1>
+    <p class="pregunta"></p>
+    <p class="message"></p>
+        <section class="container">
+            <div class="letters">A</div>
+            <div class="letters">B</div>
+            <div class="letters">C</div>
+            <div class="letters">D</div>
+            <div class="letters">E</div>
+            <div class="letters">F</div>
+            <div class="letters">G</div>
+            <div class="letters">H</div>
+            <div class="letters">I</div>
+            <div class="letters">J</div>
+            <div class="letters">K</div>
+            <div class="letters">L</div>
+            <div class="letters">M</div>
+            <div class="letters">N</div>
+            <div class="letters">Ñ</div>
+            <div class="letters">O</div>
+            <div class="letters">P</div>
+            <div class="letters">Q</div>
+            <div class="letters">R</div>
+            <div class="letters">S</div>
+            <div class="letters">T</div>
+            <div class="letters">U</div>
+            <div class="letters">V</div>
+            <div class="letters">W</div>
+            <div class="letters">X</div>
+            <div class="letters">Y</div>
+            <div class="letters">Z</div>
+</section>
+
+<section class="buttons">
+<button class="endButton" type="button">Finalizar</button>
+<button class="startButton" onclick="empezarJuego()" type="button">Start</button>
+<button class="nextButton" type="button">PasaPalabra</button>
+</section>
+<input class="respuesta" type="text" class="form__field" placeholder="Respuesta" name="respuesta" id='respuesta' required />
+<button class="sendButton" onclick="check()" type="button">Comprobar!</button>
+<meter class= "progressBar" max="27" value="0"></meter>
+<div class="countDown">&#x1F55B; 100</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
